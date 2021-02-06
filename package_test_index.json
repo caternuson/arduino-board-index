@@ -4,15 +4,15 @@
       "websiteURL": "https://caternuson.github.io/",
       "tools": [
         {
-          "name": "",
-          "version": "",
+          "name": "foo-tool",
+          "version": "1.0.0",
           "systems": [
             {
               "host": "all",
-              "url": "",
-              "archiveFileName": "",
-              "checksum": "",
-              "size": ""
+              "url": "https://caternuson.github.io/arduino-board-index/fooTool.tar.bz2",
+              "archiveFileName": "fooTool.tar.bz2",
+              "checksum": "SHA-256:ca722f46fb51df0795cbe84f554b67eedbeb486d1c6c7aaa3ec1b86577056e35",
+              "size": "149"
             }
           ]
         }
@@ -26,16 +26,16 @@
       "platforms": [
         {
 
-          "name": "cateruson Test AVR Boards",
-          "architecture": "avr",
+          "name": "caternuson test boards",
+          "architecture": "foo",
           "version": "1.0.0",
           "category": "Test",
-          "url": "",
-          "archiveFileName": "",
-          "checksum": "",
-          "size": "",
+          "url": "https://caternuson.github.io/arduino-board-index/fooCore.tar.bz2",
+          "archiveFileName": "fooCore.tar.bz2",
+          "checksum": "SHA-256:d0f2b7cfabd916478d5a262f2037435830843adb5e751d3538f897b95c7c0127",
+          "size": "147",
           "help": {
-            "online": "https://forums.adafruit.com"
+            "online": ""
           },
           "boards": [
             {
@@ -43,18 +43,7 @@
             }
           ],
           "toolsDependencies": [
-            {
-              "name": "avr-gcc",
-              "packager": "arduino",
-              "version": "4.8.1-arduino5"
-            },
-            {
-              "name": "avrdude",
-              "packager": "arduino",
-              "version": "6.0.1-arduino5"
-            }
           ]
-
         }
       ]
     }
