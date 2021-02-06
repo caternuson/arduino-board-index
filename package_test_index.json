@@ -1,0 +1,62 @@
+{
+  "packages": [
+    {
+      "websiteURL": "https://caternuson.github.io/",
+      "tools": [
+        {
+          "name": "",
+          "version": "",
+          "systems": [
+            {
+              "host": "all",
+              "url": "",
+              "archiveFileName": "",
+              "checksum": "",
+              "size": ""
+            }
+          ]
+        }
+      ],
+      "name": "caternuson",
+      "email": "info@caternuson",
+      "help": {
+        "online": "https://caternuson.github.io/"
+      },
+      "maintainer": "caternuson",
+      "platforms": [
+        {
+
+          "name": "cateruson Test AVR Boards",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Test",
+          "url": "",
+          "archiveFileName": "",
+          "checksum": "",
+          "size": "",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "Test Board 1"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "name": "avr-gcc",
+              "packager": "arduino",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "name": "avrdude",
+              "packager": "arduino",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+
+        }
+      ]
+    }
+  ]
+}
